@@ -1,0 +1,15 @@
+$primary-color: #112e6e;
+$color: rgba(black, 0.88);
+
+body {
+    background-color: white;
+    color: $primary-color;
+}
+
+#app {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    min-height: 100vh;
+}
